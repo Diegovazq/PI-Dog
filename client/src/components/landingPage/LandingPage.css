@@ -1,0 +1,21 @@
+.mainContainer-landingPage{
+    text-align: center;
+    background-image: url('https://thumbs.dreamstime.com/z/impresi%C3%B3n-rosa-de-p%C3%A1gina-sin-problemas-patr%C3%B3n-fondo-repetici%C3%B3n-huellas-gatos-o-perros-ilustraci%C3%B3n-vectorial-ilustraciones-226512405.jpg'); 
+}
+.title-LandingPage{
+    margin-top: 70px;
+}
+.button-landingPage{
+    padding: 10px;
+    margin-top: 20px;
+    width: 11%;
+    background-color: #ffF;
+    border: none;
+}
+.img-LandingPage{
+    margin-top: 33px;
+}
+.a-LandingPage{
+    display: flex;
+    justify-content: center;
+}

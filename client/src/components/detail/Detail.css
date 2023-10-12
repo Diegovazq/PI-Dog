@@ -1,0 +1,25 @@
+.mainContainer-Detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    text-align: center;
+    margin-top: 100px;
+  }
+
+.mainContainer-Detail>img {
+  margin-bottom: 20px; /* Espaciado inferior entre la imagen y el texto */
+  width: 500px; /* Tamaño deseado para la imagen */
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px; /* Opcional: agrega bordes redondeados */
+}
+
+.mainContainer-Detail>h3 {
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.mainContainer-Detail>h1 {
+    margin-bottom: 25px;
+}

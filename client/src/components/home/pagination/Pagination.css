@@ -1,0 +1,33 @@
+
+
+.numbers-Pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pages-Pagination {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .numButton-Pagination {
+    border: none;
+    background-color: #fff;
+    color: #551a8b;
+    font-size: 1rem;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .numButton-Pagination:hover {
+    background-color: #98fb98;
+    color:#551a8b;
+  }
+  
+  .numButton-Pagination:focus {
+    outline: none;
+  }

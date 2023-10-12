@@ -1,0 +1,20 @@
+.mainContainer-NavBar{
+    background-color:#98fb98
+  
+}
+.lista-NavBar{
+    margin-right: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    list-style: none;
+    background-color:#98fb98
+}
+.lista-NavBar > a > li{
+    background-color:#98fb98
+}
+
+a{
+    text-decoration: none;
+}

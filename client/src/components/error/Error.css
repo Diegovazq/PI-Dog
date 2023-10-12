@@ -1,0 +1,50 @@
+.mainContainer-Error{
+    text-align: center;
+}
+.mainContainer-Error > h1{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.mainContainer-Error > h3{
+    margin-top: 30px;
+}
+
+.btn-Error {
+    background: #ffc492;
+    border: none;
+    padding: 8px;
+    border-radius: 7px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.btn-Error:hover {
+    color: white;
+}
+
+.btn-Error::after {
+    content: "";
+    background: #db2777d9;
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.btn-Error:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
